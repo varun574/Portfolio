@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[761],{761:function(o,e,p){o.exports=p.p+"static/media/profile-icon.14a2ffd9d32540e9b027.jpg"}}]);

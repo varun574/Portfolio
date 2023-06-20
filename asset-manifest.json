@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.83b266ed.css",
+    "main.js": "/Portfolio/static/js/main.149ff8d9.js",
+    "static/js/391.7b089c45.chunk.js": "/Portfolio/static/js/391.7b089c45.chunk.js",
+    "static/js/29.dd0dcb3a.chunk.js": "/Portfolio/static/js/29.dd0dcb3a.chunk.js",
+    "static/js/394.897845d2.chunk.js": "/Portfolio/static/js/394.897845d2.chunk.js",
+    "static/js/657.7c2e8367.chunk.js": "/Portfolio/static/js/657.7c2e8367.chunk.js",
+    "static/js/209.9b40252f.chunk.js": "/Portfolio/static/js/209.9b40252f.chunk.js",
+    "static/js/57.cccb9a95.chunk.js": "/Portfolio/static/js/57.cccb9a95.chunk.js",
+    "static/js/277.cad679f4.chunk.js": "/Portfolio/static/js/277.cad679f4.chunk.js",
+    "static/js/325.5725461a.chunk.js": "/Portfolio/static/js/325.5725461a.chunk.js",
+    "static/js/241.f057111a.chunk.js": "/Portfolio/static/js/241.f057111a.chunk.js",
+    "static/js/895.c1736b9c.chunk.js": "/Portfolio/static/js/895.c1736b9c.chunk.js",
+    "static/js/519.a86dc057.chunk.js": "/Portfolio/static/js/519.a86dc057.chunk.js",
+    "static/js/845.68fe91ab.chunk.js": "/Portfolio/static/js/845.68fe91ab.chunk.js",
+    "static/js/466.37da2c92.chunk.js": "/Portfolio/static/js/466.37da2c92.chunk.js",
+    "static/js/761.b3e860cd.chunk.js": "/Portfolio/static/js/761.b3e860cd.chunk.js",
+    "static/js/357.fdc35a7d.chunk.js": "/Portfolio/static/js/357.fdc35a7d.chunk.js",
+    "static/js/200.5fc260d2.chunk.js": "/Portfolio/static/js/200.5fc260d2.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/coding.gif": "/Portfolio/static/media/coding.9ad86c94e00141a7c3a0.gif",
+    "static/media/covid_dashboard.png": "/Portfolio/static/media/covid_dashboard.857238cfc427f15f3c7a.png",
+    "static/media/coupon-x.png": "/Portfolio/static/media/coupon-x.a821e824d395f4801750.png",
+    "static/media/loading_page.gif": "/Portfolio/static/media/loading_page.36bbff10dbefac845750.gif",
+    "static/media/fake_product_monitoring.png": "/Portfolio/static/media/fake_product_monitoring.2120103a72c425d19223.png",
+    "static/media/me2.jpeg": "/Portfolio/static/media/me2.9e87686eac8232fc66bb.jpeg",
+    "static/media/loading_page2.gif": "/Portfolio/static/media/loading_page2.3b11d57462be50a3f7d4.gif",
+    "static/media/me.jpg": "/Portfolio/static/media/me.968079ac56584150029e.jpg",
+    "static/media/me3.jpg": "/Portfolio/static/media/me3.ad03207744c8c05c1617.jpg",
+    "static/media/profile-icon.jpg": "/Portfolio/static/media/profile-icon.14a2ffd9d32540e9b027.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.83b266ed.css.map": "/Portfolio/static/css/main.83b266ed.css.map",
+    "main.149ff8d9.js.map": "/Portfolio/static/js/main.149ff8d9.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83b266ed.css",
+    "static/js/main.149ff8d9.js"
+  ]
+}
