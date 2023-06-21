@@ -3,10 +3,12 @@ import SectionHeader from './SectionHeader'
 import {motion} from 'framer-motion'
 import {slide_up_options} from '../assets/constants/animation/slide_up'
 import coding_image from '../assets/images/coding.gif'
+import useScrollSpy from '../hooks/useScrollSpy'
 
 function Introduction({id, author, tagline}) {
+  const ref = useScrollSpy(id);
   return (
-    <section id={id} className='overflow-hidden'>
+    <section ref={ref} id={id} className='overflow-hidden'>
       <motion.div  className='portfolio-section introduction d-flex flex-column justify-content-between' 
         initial={slide_up_options.initial} 
         whileInView={slide_up_options.whileInView} 

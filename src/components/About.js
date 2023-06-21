@@ -2,10 +2,12 @@ import React from 'react'
 import SectionHeader from './SectionHeader'
 import {motion} from 'framer-motion'
 import {slide_up_options} from '../assets/constants/animation/slide_up'
+import useScrollSpy from '../hooks/useScrollSpy';
 
 function About({id, body}) {
+  const ref = useScrollSpy(id);
   return (
-    <section id={id} className='overflow-hidden'>
+    <section ref={ref} id={id} className='overflow-hidden'>
       <motion.div className='portfolio-section introduction d-flex flex-column justify-content-between'  
         initial={slide_up_options.initial} 
         whileInView={slide_up_options.whileInView} 

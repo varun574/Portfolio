@@ -6,7 +6,7 @@ export const media_sources = [
     },
     {
         "platform" : "portfolio",
-        "src" : "/",
+        "src" : "https://varun574.github.io/Portfolio/",
         "iconClass" : "fa fa-chrome"
     },
     {

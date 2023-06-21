@@ -27,7 +27,7 @@ function Profile() {
           })}
         </div>
         <div className="d-flex flex-row justify-content-around">
-          <button className="contact-btn border-2 btn rounded-pill">Contact Me</button>
+          <button className="contact-btn border-2 btn rounded-pill" onClick={()=>document.getElementById('contact-section').scrollIntoView({behavior:"smooth"})}>Contact Me</button>
         </div>
       </div>
     </div>
