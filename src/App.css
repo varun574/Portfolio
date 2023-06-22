@@ -234,7 +234,7 @@
   text-align: center;
   background-color: #161616 !important;
 }
-.side-menu-nav a:hover, .side-menu-nav .active{
+.side-menu-nav a:hover, .side-menu-nav a.active{
   color: #28e98c !important;
 }
 

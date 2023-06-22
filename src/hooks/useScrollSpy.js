@@ -1,16 +1,21 @@
-import { useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react'
 
 function useScrollSpy(id) {
   const ref = useRef(null)
-  const isInView = useInView(ref);
   useEffect(()=>{
-    if(isInView){
-      console.log(id +" "+isInView)
-      document.querySelector('#side-menu-nav a.active').classList.remove("active");
-      document.querySelector(`#side-menu-nav a[href='#${id}']`).classList.add("active");
+    const observer = new IntersectionObserver((entries)=>{
+      document.querySelectorAll(`#side-menu-nav a.active`).forEach((Element)=>{
+        Element.classList.remove("active")
+      })
+      document.querySelector(`#side-menu-nav a[href='#${id}']`).classList.toggle("active", entries[0].isIntersecting);
+    },{
+      rootMargin:"-50%"
+    })
+    observer.observe(document.getElementById(id));
+    return ()=>{
+      observer.disconnect();
     }
-  }, [isInView, id])
+  }, [id])
   return ref;
 }
 
